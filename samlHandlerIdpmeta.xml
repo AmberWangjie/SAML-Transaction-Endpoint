@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-07-07T08:50:57Z" cacheDuration="PT1499849457S" entityID="http://localhost:9010/saml" ID="pfx810de6e4-6582-2c49-d6e9-287ed91f4921"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI="#pfx810de6e4-6582-2c49-d6e9-287ed91f4921"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>yDQuIIVuigU+8mYnxTteaeXfdA8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>O9P6Pkn3SZXghOVeD+PiI2JRNjm5qX+LrSGhOhMG7dpefVfwj5L2ST6IHTDsYJv+e74uEXUsYGsJ6DLt/57uDTa2oYZjmOh+H/FBMCFaJ57dAWRai4lVrGw8Ex/AhoYQgEZ8oRSNJGCVez7ozE/xyqoG0AnFVQgs9mivxJm2ESU=</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDiTCCAnCgAwIBAgIBADANBgkqhkiG9w0BAQ0FADBeMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEcMBoGA1UEAwwTbG9jYWxob3N0OjkwMTAvc2FtbDAeFw0xNzA2MTUwMjU1MTFaFw0xODA2MTUwMjU1MTFaMF4xCzAJBgNVBAYTAnVzMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTEYMBYGA1UECgwPRHVrZSBVbml2ZXJzaXR5MRwwGgYDVQQDDBNsb2NhbGhvc3Q6OTAxMC9zYW1sMIIBIzANBgkqhkiG9w0BAQEFAAOCARAAMIIBCwKCAQIApeC/LbxZMivWMgDAD7XWepipW0v+juu4O1jJ//R20ZIgv2AN1ae+IKH+EXK7hLtM6eXt1nG7RZYJVfzYJtS1h3j2IqhEXbZF98FpyowVlBlD5SafKhft2818DVappIH1YAf6X3VTVS1UGSDh484jnjUMRGk5c7REYWbB5pWs/m4/N6dkNeaQP3fXV15ZzCUj85w9eMIstyPDlBI6FgX/AM2Yf02iD3R+GKj4DnuDLRYgi276PFsq5zUIIco6zMl/r3jqeAj5rbzjfoCYIL9NuPH/sTC4L9MxMa3MRLhF7O6HswmJLoYBbmNSutaHgv1pMEfUAkiQ8UVGWxJS8S3WyykCAwEAAaNQME4wHQYDVR0OBBYEFDhN/JdXSEQLjvv1KGTn2MxrmimFMB8GA1UdIwQYMBaAFDhN/JdXSEQLjvv1KGTn2MxrmimFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQENBQADggECAD5zUB4jlbi0YsjswYlHKXI8HXbgyMAmAST1rJZD+A5QtTEutVPNdEtPjAfiHWrPoxWtoUw/phA1dR1G/pD4tI1HN+2/I7RTM0jDVB+y5AZkBjbgRDE/2vTWNLRnMDB7jpJIhxyOEuDCACqyx+tK8Psf2//fdbS3mSWMwgBZQW/LAaUNenCp4GOuFvpQPsLcX0Ss1x60OpiMNGg0SdB0ZC2NggCax+9or4Qq3ZXLncwFkwwz/JCSoKv8Tpq2ySDLe6f+r8B3G/JuSb1dDBKlGbP5dtt8B/NgmmgcO9kxWkrDdlcpVOWqpGIQe+tHikux/eFYcWFIvxL13UMGSoccf/H0</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDfzCCAmagAwIBAgIBADANBgkqhkiG9w0BAQ0FADBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwHhcNMTcwNjE1MDI1MDM4WhcNMTgwNjE1MDI1MDM4WjBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC5cONYGBkI4MsD3EI7rSlLOY9ZSHgI2iBn6Lv+2GzuAwTKQOyrNRNbrUsTmAAyCaL4MojrEBlCiVkWrN7BAN9Lobaree4dhzXaluPPD1qTu/IJ1cSMKw+igqA6ime3cTM7p44MAVFbuQKSU6eVsh22wuvovr/v0bRLumKcWydHHsSy1w2zSVQ9JfksVLEW7nIPk2Eng3XhVQFdoVGGUl0wEG/p0dwkIFoerOVPW59ddySJXBQ0SGKX/YZE2e5FB9TRraDlX3Y16HwB0Wj4GEXv0xDUnKM3kCwnxfthmYSPkM862AcfocDl+fIb5lEbHU5wOuVLwEM6Zu4Gw5Hgtqa6RwIDAQABo1AwTjAdBgNVHQ4EFgQU1hF5uNUdoKwjpYYnYw2SKgh+Q94wHwYDVR0jBBgwFoAU1hF5uNUdoKwjpYYnYw2SKgh+Q94wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAkWrCg0kO7+DlH2ZsEwRjBSEOTnPgUVm91sFmZPImfxhoLl5vfrDJCRfjoQ8aH+37XuPJA4shz751qc4aRh+gCND4FoTz4y2tzdQ+FS/p8acRuW/MSvatFC1P1CT0Gd6vsOAz8iSs7iuJ1f9KAw7kXYl8LBESiAjmAv5EH0//wnygV2LSZhOPpM7K/hA3WV/MF/jNS+pHuBsWSpyveQ5yIjzkbAU1At7YyWIKrLotKcmqb7D2hIlJp+RPy/FGWovPjDyc3MNhOGluiIS9xTclTdCvC8n6hKKW12mZxQJPfv7gdJXTdeijFLZsfnW/GkQIk5qy9EE2e8yaeSPbxY12j+M=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDfzCCAmagAwIBAgIBADANBgkqhkiG9w0BAQ0FADBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwHhcNMTcwNjE1MDI1MDM4WhcNMTgwNjE1MDI1MDM4WjBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC5cONYGBkI4MsD3EI7rSlLOY9ZSHgI2iBn6Lv+2GzuAwTKQOyrNRNbrUsTmAAyCaL4MojrEBlCiVkWrN7BAN9Lobaree4dhzXaluPPD1qTu/IJ1cSMKw+igqA6ime3cTM7p44MAVFbuQKSU6eVsh22wuvovr/v0bRLumKcWydHHsSy1w2zSVQ9JfksVLEW7nIPk2Eng3XhVQFdoVGGUl0wEG/p0dwkIFoerOVPW59ddySJXBQ0SGKX/YZE2e5FB9TRraDlX3Y16HwB0Wj4GEXv0xDUnKM3kCwnxfthmYSPkM862AcfocDl+fIb5lEbHU5wOuVLwEM6Zu4Gw5Hgtqa6RwIDAQABo1AwTjAdBgNVHQ4EFgQU1hF5uNUdoKwjpYYnYw2SKgh+Q94wHwYDVR0jBBgwFoAU1hF5uNUdoKwjpYYnYw2SKgh+Q94wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAkWrCg0kO7+DlH2ZsEwRjBSEOTnPgUVm91sFmZPImfxhoLl5vfrDJCRfjoQ8aH+37XuPJA4shz751qc4aRh+gCND4FoTz4y2tzdQ+FS/p8acRuW/MSvatFC1P1CT0Gd6vsOAz8iSs7iuJ1f9KAw7kXYl8LBESiAjmAv5EH0//wnygV2LSZhOPpM7K/hA3WV/MF/jNS+pHuBsWSpyveQ5yIjzkbAU1At7YyWIKrLotKcmqb7D2hIlJp+RPy/FGWovPjDyc3MNhOGluiIS9xTclTdCvC8n6hKKW12mZxQJPfv7gdJXTdeijFLZsfnW/GkQIk5qy9EE2e8yaeSPbxY12j+M=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:9010/saml"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:9010/saml"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">Yufu</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">yufuid</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">http://www.yufu.yuid.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Amber</md:GivenName>
+    <md:EmailAddress>jw@yufuid.com</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Amber</md:GivenName>
+    <md:EmailAddress>jw@yufuid.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

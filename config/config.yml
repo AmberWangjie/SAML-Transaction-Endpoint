@@ -1,0 +1,21 @@
+server:
+  minThreads: 1
+  maxThreads: 1024
+  adminMinThreads: 1
+  adminMaxThreads: 64
+  applicationConnectors:
+    - type: http
+      port: 9010
+  requestLog:
+    appenders:
+      - type: file
+        currentLogFilename: ./logs/adminService-requests.log
+        archive: true
+        archivedLogFilenamePattern: "./logs/adminService-requests.%d{yyyy-MM-dd-HH}.log.gz"
+        logFormat: "%h|%t{yyyy/MM/dd HH:mm:ss}|%s|%b|%U|%i{Referer}|%i{User-Agent}|%D"
+        archivedFileCount: 10
+        timeZone: GMT+8
+
+
+
+companyName: Yufu

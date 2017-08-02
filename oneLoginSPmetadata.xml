@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-07-07T08:39:58Z" cacheDuration="PT604800S" entityID="http://localhost:8088/dologin.jsp" ID="pfxcf1c056e-0c39-d97b-af86-31fd9f81600a"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI="#pfxcf1c056e-0c39-d97b-af86-31fd9f81600a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>23mI2EWbj0CGwbj9A5zG/yChTF8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>KMW8CmJbWjdHlhMBldH5zAI3h1sX7ozMQfFd/e6cGv+ZkGpeppjj5jsveDgQS3AgR7LuC7S/hPHaNJz9D3iUhxe81JDNRu63RitvhBF+5ewBBx5dO4pEndkxxVniVXqHCNIk8zXYTZtzQN2vb5CEkjiK13yYuzi6LjQvUc8ELboUAikMBVvLruEmMRy3jwcz+FsBR9N3L7BzQW+Bebi0Ygt3F4vjRMgGR2aScYL0TdDQRv58p12S9v40Re5Q226AgJC5h/ycF7dR9SwK1p35H7XGiAhtCvb57aic0Y2/aBmLlwzI7wN5SFfV6T8eLE9VHKLmAK7gCLcj4fmZULoBrIw=</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDfzCCAmagAwIBAgIBADANBgkqhkiG9w0BAQ0FADBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwHhcNMTcwNjE1MDI1MDM4WhcNMTgwNjE1MDI1MDM4WjBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC5cONYGBkI4MsD3EI7rSlLOY9ZSHgI2iBn6Lv+2GzuAwTKQOyrNRNbrUsTmAAyCaL4MojrEBlCiVkWrN7BAN9Lobaree4dhzXaluPPD1qTu/IJ1cSMKw+igqA6ime3cTM7p44MAVFbuQKSU6eVsh22wuvovr/v0bRLumKcWydHHsSy1w2zSVQ9JfksVLEW7nIPk2Eng3XhVQFdoVGGUl0wEG/p0dwkIFoerOVPW59ddySJXBQ0SGKX/YZE2e5FB9TRraDlX3Y16HwB0Wj4GEXv0xDUnKM3kCwnxfthmYSPkM862AcfocDl+fIb5lEbHU5wOuVLwEM6Zu4Gw5Hgtqa6RwIDAQABo1AwTjAdBgNVHQ4EFgQU1hF5uNUdoKwjpYYnYw2SKgh+Q94wHwYDVR0jBBgwFoAU1hF5uNUdoKwjpYYnYw2SKgh+Q94wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAkWrCg0kO7+DlH2ZsEwRjBSEOTnPgUVm91sFmZPImfxhoLl5vfrDJCRfjoQ8aH+37XuPJA4shz751qc4aRh+gCND4FoTz4y2tzdQ+FS/p8acRuW/MSvatFC1P1CT0Gd6vsOAz8iSs7iuJ1f9KAw7kXYl8LBESiAjmAv5EH0//wnygV2LSZhOPpM7K/hA3WV/MF/jNS+pHuBsWSpyveQ5yIjzkbAU1At7YyWIKrLotKcmqb7D2hIlJp+RPy/FGWovPjDyc3MNhOGluiIS9xTclTdCvC8n6hKKW12mZxQJPfv7gdJXTdeijFLZsfnW/GkQIk5qy9EE2e8yaeSPbxY12j+M=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDfzCCAmagAwIBAgIBADANBgkqhkiG9w0BAQ0FADBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwHhcNMTcwNjE1MDI1MDM4WhcNMTgwNjE1MDI1MDM4WjBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC5cONYGBkI4MsD3EI7rSlLOY9ZSHgI2iBn6Lv+2GzuAwTKQOyrNRNbrUsTmAAyCaL4MojrEBlCiVkWrN7BAN9Lobaree4dhzXaluPPD1qTu/IJ1cSMKw+igqA6ime3cTM7p44MAVFbuQKSU6eVsh22wuvovr/v0bRLumKcWydHHsSy1w2zSVQ9JfksVLEW7nIPk2Eng3XhVQFdoVGGUl0wEG/p0dwkIFoerOVPW59ddySJXBQ0SGKX/YZE2e5FB9TRraDlX3Y16HwB0Wj4GEXv0xDUnKM3kCwnxfthmYSPkM862AcfocDl+fIb5lEbHU5wOuVLwEM6Zu4Gw5Hgtqa6RwIDAQABo1AwTjAdBgNVHQ4EFgQU1hF5uNUdoKwjpYYnYw2SKgh+Q94wHwYDVR0jBBgwFoAU1hF5uNUdoKwjpYYnYw2SKgh+Q94wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAkWrCg0kO7+DlH2ZsEwRjBSEOTnPgUVm91sFmZPImfxhoLl5vfrDJCRfjoQ8aH+37XuPJA4shz751qc4aRh+gCND4FoTz4y2tzdQ+FS/p8acRuW/MSvatFC1P1CT0Gd6vsOAz8iSs7iuJ1f9KAw7kXYl8LBESiAjmAv5EH0//wnygV2LSZhOPpM7K/hA3WV/MF/jNS+pHuBsWSpyveQ5yIjzkbAU1At7YyWIKrLotKcmqb7D2hIlJp+RPy/FGWovPjDyc3MNhOGluiIS9xTclTdCvC8n6hKKW12mZxQJPfv7gdJXTdeijFLZsfnW/GkQIk5qy9EE2e8yaeSPbxY12j+M=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDfzCCAmagAwIBAgIBADANBgkqhkiG9w0BAQ0FADBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwHhcNMTcwNjE1MDI1MDM4WhcNMTgwNjE1MDI1MDM4WjBZMQswCQYDVQQGEwJ1czEXMBUGA1UECAwOTm9ydGggQ2Fyb2xpbmExGDAWBgNVBAoMD0R1a2UgVW5pdmVyc2l0eTEXMBUGA1UEAwwObG9jYWxob3N0OjgwODgwggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAgC5cONYGBkI4MsD3EI7rSlLOY9ZSHgI2iBn6Lv+2GzuAwTKQOyrNRNbrUsTmAAyCaL4MojrEBlCiVkWrN7BAN9Lobaree4dhzXaluPPD1qTu/IJ1cSMKw+igqA6ime3cTM7p44MAVFbuQKSU6eVsh22wuvovr/v0bRLumKcWydHHsSy1w2zSVQ9JfksVLEW7nIPk2Eng3XhVQFdoVGGUl0wEG/p0dwkIFoerOVPW59ddySJXBQ0SGKX/YZE2e5FB9TRraDlX3Y16HwB0Wj4GEXv0xDUnKM3kCwnxfthmYSPkM862AcfocDl+fIb5lEbHU5wOuVLwEM6Zu4Gw5Hgtqa6RwIDAQABo1AwTjAdBgNVHQ4EFgQU1hF5uNUdoKwjpYYnYw2SKgh+Q94wHwYDVR0jBBgwFoAU1hF5uNUdoKwjpYYnYw2SKgh+Q94wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOCAQIAkWrCg0kO7+DlH2ZsEwRjBSEOTnPgUVm91sFmZPImfxhoLl5vfrDJCRfjoQ8aH+37XuPJA4shz751qc4aRh+gCND4FoTz4y2tzdQ+FS/p8acRuW/MSvatFC1P1CT0Gd6vsOAz8iSs7iuJ1f9KAw7kXYl8LBESiAjmAv5EH0//wnygV2LSZhOPpM7K/hA3WV/MF/jNS+pHuBsWSpyveQ5yIjzkbAU1At7YyWIKrLotKcmqb7D2hIlJp+RPy/FGWovPjDyc3MNhOGluiIS9xTclTdCvC8n6hKKW12mZxQJPfv7gdJXTdeijFLZsfnW/GkQIk5qy9EE2e8yaeSPbxY12j+M=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:8088/dologout.jsp"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8088/acs.jsp" index="1"/>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en-US">SP Java</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en-US">SP Java Example</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en-US">http://sp.example.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Technical Guy</md:GivenName>
+    <md:EmailAddress>technical@example.com</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Support Guy</md:GivenName>
+    <md:EmailAddress>support@example.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
